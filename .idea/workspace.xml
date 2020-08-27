@@ -1,13 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4175571-7d48-49f3-bd4a-5cb7ef1efff5" name="Default Changelist" comment="" />
+    <list default="true" id="f4175571-7d48-49f3-bd4a-5cb7ef1efff5" name="Default Changelist" comment=".">
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/abstractfactory/Note8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/abstractfactory/Note8Fabrikasi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/abstractfactory/S8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/abstractfactory/S8Fabrikasi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/abstractfactory/Telefon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/abstractfactory/TelefonBayisi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/abstractfactory/TelefonFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/builder/Emlakci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/builder/EmlakciV2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/builder/Ev.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/builder/EvBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/factory/Note8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/factory/S8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/factory/Telefon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/factory/TelefonBayi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/factory/TelefonFabrikasi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/prototype/App1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/prototype/Belge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/prototype/BelgeTuru.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/prototype/GenelEntityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/prototype/Kategori.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/singleton/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/creational/singleton/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/adapter/Buzdolabi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/adapter/ElektrikliEvAletleri.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/adapter/Priz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/adapter/SamsungTelefon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/adapter/Telefon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/adapter/TelefonEEAAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/adapter/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/adapter/Utu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/bridge/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/bridge/Muzik.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/bridge/cihaz/BilgisayarKF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/bridge/cihaz/MuzikCalabilenBilgisayar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/bridge/cihaz/Telefon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/bridge/muzikcalar/Fizy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/bridge/muzikcalar/MuzikCalar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/bridge/muzikcalar/Spotify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/bridge/sescihazi/Kulaklik.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/bridge/sescihazi/SesCihazi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/bridgeIlk/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/bridgeIlk/Bilgisayar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/bridgeIlk/Hoparlor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/bridgeIlk/Muzik.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/bridgeIlk/Spotify.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/composite/App1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/composite/Paket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/composite/Sepet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kaliplar/main/java/designpatterns/structural/composite/Urun.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gg6KqtSFcnqmcnj50AJ9RFjxfX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,7 +127,42 @@
       <option name="presentableId" value="Default" />
       <updated>1598523828117</updated>
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1598524244982</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598524244982</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="WindowStateProjectService">
     <state width="1878" height="344" key="GridCell.Tab.0.bottom" timestamp="1598523876534">
@@ -86,5 +201,9 @@
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
     <state x="449" y="159" key="SettingsEditor/0.0.1920.1047@0.0.1920.1047" timestamp="1598523896871" />
+    <state x="555" y="260" width="804" height="525" key="Vcs.Push.Dialog.v2" timestamp="1598524248868">
+      <screen x="0" y="0" width="1920" height="1047" />
+    </state>
+    <state x="555" y="260" width="804" height="525" key="Vcs.Push.Dialog.v2/0.0.1920.1047@0.0.1920.1047" timestamp="1598524248868" />
   </component>
 </project>
