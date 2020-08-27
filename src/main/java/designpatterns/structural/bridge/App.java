@@ -13,12 +13,12 @@ public class App {
         BilgisayarKF bilgisayarKF = new BilgisayarKF();
         bilgisayarKF.muzikCal(muzik);
 
-        System.out.println("***********************");
+        System.out.println("************************");
 
         Telefon telefon1 = new Telefon(new Kulaklik(), new Fizy());
         telefon1.muzikCal(muzik);
 
-        System.out.println("***********************");
+        System.out.println("************************");
 
         Telefon telefon2 = new Telefon(new Kulaklik(), new Spotify());
         telefon2.muzikCal(muzik);
