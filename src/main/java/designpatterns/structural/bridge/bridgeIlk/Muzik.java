@@ -1,4 +1,4 @@
-package main.java.designpatterns.structural.bridge;
+package main.java.designpatterns.structural.bridge.bridgeIlk;
 
 public class Muzik {
     private String adi;

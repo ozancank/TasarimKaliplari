@@ -1,8 +1,8 @@
-package main.java.designpatterns.structural.bridge.cihaz;
+package main.java.designpatterns.structural.bridge.bridgeSon.cihaz;
 
-import main.java.designpatterns.structural.bridge.Muzik;
-import main.java.designpatterns.structural.bridge.muzikcalar.MuzikCalar;
-import main.java.designpatterns.structural.bridge.sescihazi.SesCihazi;
+import main.java.designpatterns.structural.bridge.bridgeSon.Muzik;
+import main.java.designpatterns.structural.bridge.bridgeSon.muzikcalar.MuzikCalar;
+import main.java.designpatterns.structural.bridge.bridgeSon.sescihazi.SesCihazi;
 
 public abstract class MuzikCalabilenBilgisayar {
     protected SesCihazi sesCihazi;

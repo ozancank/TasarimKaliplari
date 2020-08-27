@@ -1,4 +1,4 @@
-package main.java.designpatterns.structural.bridge.sescihazi;
+package main.java.designpatterns.structural.bridge.bridgeSon.sescihazi;
 
 public class Kulaklik implements SesCihazi {
     @Override

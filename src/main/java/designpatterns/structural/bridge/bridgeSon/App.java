@@ -1,11 +1,11 @@
-package main.java.designpatterns.structural.bridge;
+package main.java.designpatterns.structural.bridge.bridgeSon;
 
 
-import main.java.designpatterns.structural.bridge.cihaz.BilgisayarKF;
-import main.java.designpatterns.structural.bridge.cihaz.Telefon;
-import main.java.designpatterns.structural.bridge.muzikcalar.Fizy;
-import main.java.designpatterns.structural.bridge.muzikcalar.Spotify;
-import main.java.designpatterns.structural.bridge.sescihazi.Kulaklik;
+import main.java.designpatterns.structural.bridge.bridgeSon.cihaz.BilgisayarKF;
+import main.java.designpatterns.structural.bridge.bridgeSon.cihaz.Telefon;
+import main.java.designpatterns.structural.bridge.bridgeSon.muzikcalar.Fizy;
+import main.java.designpatterns.structural.bridge.bridgeSon.muzikcalar.Spotify;
+import main.java.designpatterns.structural.bridge.bridgeSon.sescihazi.Kulaklik;
 
 public class App {
     public static void main(String[] args) {

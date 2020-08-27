@@ -1,4 +1,4 @@
-package main.java.designpatterns.structural.composite;
+package main.java.designpatterns.structural.composite.compositeIlk;
 
 import java.util.ArrayList;
 import java.util.List;

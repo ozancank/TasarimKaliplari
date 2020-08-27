@@ -1,4 +1,4 @@
-package main.java.designpatterns.structural.bridgeIlk;
+package main.java.designpatterns.structural.bridge.bridgeIlk;
 
 public class Hoparlor {
     public void muzikCal(String ses) {

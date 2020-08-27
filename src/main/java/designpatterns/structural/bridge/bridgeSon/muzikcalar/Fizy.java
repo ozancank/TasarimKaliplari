@@ -1,6 +1,6 @@
-package main.java.designpatterns.structural.bridge.muzikcalar;
+package main.java.designpatterns.structural.bridge.bridgeSon.muzikcalar;
 
-import main.java.designpatterns.structural.bridge.Muzik;
+import main.java.designpatterns.structural.bridge.bridgeSon.Muzik;
 
 public class Fizy implements MuzikCalar {
     @Override
