@@ -25,11 +25,27 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4175571-7d48-49f3-bd4a-5cb7ef1efff5" name="Default Changelist" comment=".." />
+    <list default="true" id="f4175571-7d48-49f3-bd4a-5cb7ef1efff5" name="Default Changelist" comment="Composite finish">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/composite/compositeSon/App2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/composite/compositeSon/FiyatHesaplamaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/composite/compositeSon/Kumanya.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/composite/compositeSon/Paket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/composite/compositeSon/Sepet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/composite/compositeSon/Urun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -41,18 +57,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gg6KqtSFcnqmcnj50AJ9RFjxfX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.java.designpatterns.structural.composite.compositeSon" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App2">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.designpatterns.structural.bridge.App" />
       <module name="Kaliplar" />
@@ -66,8 +90,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.designpatterns.structural.composite.compositeSon.App2" />
+      <module name="Kaliplar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.designpatterns.structural.composite.compositeSon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App2" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -127,53 +165,86 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="." />
     <MESSAGE value="delete out" />
     <MESSAGE value=".." />
-    <option name="LAST_COMMIT_MESSAGE" value=".." />
+    <MESSAGE value="Composite finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="Composite finish" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="344" key="GridCell.Tab.0.bottom" timestamp="1598523876534">
-      <screen x="0" y="0" width="1920" height="1047" />
+    <state x="361" y="53" key="#Plugins" timestamp="1598541940998">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="361" y="53" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1598541940998" />
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1598548019352">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598548019352" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1598541721708">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1598541721708" />
+    <state x="389" y="0" key="CommitChangelistDialog2" timestamp="1598548384955">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="389" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598548384955" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1598548599519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598548599519" />
     <state width="1878" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1047@0.0.1920.1047" timestamp="1598523876534" />
-    <state width="1878" height="344" key="GridCell.Tab.0.center" timestamp="1598523876533">
-      <screen x="0" y="0" width="1920" height="1047" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1598548599519">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598548599519" />
     <state width="1878" height="344" key="GridCell.Tab.0.center/0.0.1920.1047@0.0.1920.1047" timestamp="1598523876533" />
-    <state width="1878" height="344" key="GridCell.Tab.0.left" timestamp="1598523876533">
-      <screen x="0" y="0" width="1920" height="1047" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1598548599519">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598548599519" />
     <state width="1878" height="344" key="GridCell.Tab.0.left/0.0.1920.1047@0.0.1920.1047" timestamp="1598523876533" />
-    <state width="1878" height="344" key="GridCell.Tab.0.right" timestamp="1598523876534">
-      <screen x="0" y="0" width="1920" height="1047" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1598548599519">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598548599519" />
     <state width="1878" height="344" key="GridCell.Tab.0.right/0.0.1920.1047@0.0.1920.1047" timestamp="1598523876534" />
-    <state width="1878" height="344" key="GridCell.Tab.1.bottom" timestamp="1598523876537">
-      <screen x="0" y="0" width="1920" height="1047" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1598548599519">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598548599519" />
     <state width="1878" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1047@0.0.1920.1047" timestamp="1598523876537" />
-    <state width="1878" height="344" key="GridCell.Tab.1.center" timestamp="1598523876535">
-      <screen x="0" y="0" width="1920" height="1047" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1598548599519">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598548599519" />
     <state width="1878" height="344" key="GridCell.Tab.1.center/0.0.1920.1047@0.0.1920.1047" timestamp="1598523876535" />
-    <state width="1878" height="344" key="GridCell.Tab.1.left" timestamp="1598523876535">
-      <screen x="0" y="0" width="1920" height="1047" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1598548599519">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598548599519" />
     <state width="1878" height="344" key="GridCell.Tab.1.left/0.0.1920.1047@0.0.1920.1047" timestamp="1598523876535" />
-    <state width="1878" height="344" key="GridCell.Tab.1.right" timestamp="1598523876536">
-      <screen x="0" y="0" width="1920" height="1047" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1598548599519">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598548599519" />
     <state width="1878" height="344" key="GridCell.Tab.1.right/0.0.1920.1047@0.0.1920.1047" timestamp="1598523876536" />
-    <state x="449" y="159" key="SettingsEditor" timestamp="1598523896871">
-      <screen x="0" y="0" width="1920" height="1047" />
+    <state x="359" y="115" key="SettingsEditor" timestamp="1598542195234">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="359" y="115" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598542195234" />
     <state x="449" y="159" key="SettingsEditor/0.0.1920.1047@0.0.1920.1047" timestamp="1598523896871" />
     <state x="555" y="260" width="804" height="525" key="Vcs.Push.Dialog.v2" timestamp="1598525240250">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
     <state x="555" y="260" width="804" height="525" key="Vcs.Push.Dialog.v2/0.0.1920.1047@0.0.1920.1047" timestamp="1598525240250" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1598546424030">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1598546424030" />
   </component>
 </project>
