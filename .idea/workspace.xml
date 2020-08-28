@@ -25,13 +25,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4175571-7d48-49f3-bd4a-5cb7ef1efff5" name="Default Changelist" comment="FlyWeight">
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/proxy/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/proxy/Calisan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/proxy/CalisanUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/proxy/GercekYonetici.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/proxy/SirketBilgileri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/proxy/YoneticiProxy.java" afterDir="false" />
+    <list default="true" id="f4175571-7d48-49f3-bd4a-5cb7ef1efff5" name="Default Changelist" comment="proxy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/behavioural/chain/AnkaraSube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/behavioural/chain/AntalyaSube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/behavioural/chain/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/behavioural/chain/CankiriSube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/behavioural/chain/EnumIl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/behavioural/chain/IstanbulSube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/behavioural/chain/KargoSirketi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/behavioural/chain/OckKargo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,18 +70,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.java.designpatterns.behavioural.chain" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.java.designpatterns.behavioural.chain" />
       <recent name="main.java.designpatterns.structural.proxy" />
       <recent name="main.java.designpatterns.structural.flyweight" />
       <recent name="main.java.designpatterns.structural.facade.gecikme" />
       <recent name="main.java.designpatterns.structural.decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (3)">
+  <component name="RunManager" selected="Application.App (4)">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.designpatterns.structural.facade.App" />
       <module name="Kaliplar" />
@@ -119,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.designpatterns.structural.bridge.App" />
+    <configuration name="App (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.designpatterns.behavioural.chain.App" />
       <module name="Kaliplar" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.designpatterns.structural.bridge.*" />
+          <option name="PATTERN" value="main.java.designpatterns.behavioural.chain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (4)" />
         <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.RaporApp" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598612008218</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="proxy">
+      <created>1598613485131</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598613485131</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,57 +254,66 @@
     <MESSAGE value="Decorator Fixed" />
     <MESSAGE value="Facade" />
     <MESSAGE value="FlyWeight" />
-    <option name="LAST_COMMIT_MESSAGE" value="FlyWeight" />
+    <MESSAGE value="proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="proxy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="589" y="206" width="736" height="634" key="#Inspections" timestamp="1598610463461">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
     <state x="589" y="206" width="736" height="634" key="#Inspections/0.0.1920.1047@0.0.1920.1047" timestamp="1598610463461" />
-    <state x="768" y="211" width="550" height="623" key="#com.intellij.ide.util.MemberChooser" timestamp="1598612403650">
+    <state x="768" y="211" width="550" height="623" key="#com.intellij.ide.util.MemberChooser" timestamp="1598613979209">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state x="768" y="211" width="550" height="623" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1047@0.0.1920.1047" timestamp="1598612403650" />
-    <state width="1878" height="344" key="GridCell.Tab.0.bottom" timestamp="1598613390958">
+    <state x="768" y="211" width="550" height="623" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1047@0.0.1920.1047" timestamp="1598613979209" />
+    <state width="1878" height="279" key="GridCell.Tab.0.bottom" timestamp="1598615970026">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state width="1878" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1047@0.0.1920.1047" timestamp="1598613390958" />
-    <state width="1878" height="344" key="GridCell.Tab.0.center" timestamp="1598613390958">
+    <state width="1878" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1047@0.0.1920.1047" timestamp="1598615970026" />
+    <state width="1878" height="279" key="GridCell.Tab.0.center" timestamp="1598615970025">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state width="1878" height="344" key="GridCell.Tab.0.center/0.0.1920.1047@0.0.1920.1047" timestamp="1598613390958" />
-    <state width="1878" height="344" key="GridCell.Tab.0.left" timestamp="1598613390957">
+    <state width="1878" height="279" key="GridCell.Tab.0.center/0.0.1920.1047@0.0.1920.1047" timestamp="1598615970025" />
+    <state width="1878" height="279" key="GridCell.Tab.0.left" timestamp="1598615970025">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state width="1878" height="344" key="GridCell.Tab.0.left/0.0.1920.1047@0.0.1920.1047" timestamp="1598613390957" />
-    <state width="1878" height="344" key="GridCell.Tab.0.right" timestamp="1598613390958">
+    <state width="1878" height="279" key="GridCell.Tab.0.left/0.0.1920.1047@0.0.1920.1047" timestamp="1598615970025" />
+    <state width="1878" height="279" key="GridCell.Tab.0.right" timestamp="1598615970026">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state width="1878" height="344" key="GridCell.Tab.0.right/0.0.1920.1047@0.0.1920.1047" timestamp="1598613390958" />
-    <state width="1878" height="344" key="GridCell.Tab.1.bottom" timestamp="1598523876537">
+    <state width="1878" height="279" key="GridCell.Tab.0.right/0.0.1920.1047@0.0.1920.1047" timestamp="1598615970026" />
+    <state width="1878" height="344" key="GridCell.Tab.1.bottom" timestamp="1598613415167">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state width="1878" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1047@0.0.1920.1047" timestamp="1598523876537" />
-    <state width="1878" height="344" key="GridCell.Tab.1.center" timestamp="1598523876535">
+    <state width="1878" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1047@0.0.1920.1047" timestamp="1598613415167" />
+    <state width="1878" height="344" key="GridCell.Tab.1.center" timestamp="1598613415166">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state width="1878" height="344" key="GridCell.Tab.1.center/0.0.1920.1047@0.0.1920.1047" timestamp="1598523876535" />
-    <state width="1878" height="344" key="GridCell.Tab.1.left" timestamp="1598523876535">
+    <state width="1878" height="344" key="GridCell.Tab.1.center/0.0.1920.1047@0.0.1920.1047" timestamp="1598613415166" />
+    <state width="1878" height="344" key="GridCell.Tab.1.left" timestamp="1598613415165">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state width="1878" height="344" key="GridCell.Tab.1.left/0.0.1920.1047@0.0.1920.1047" timestamp="1598523876535" />
-    <state width="1878" height="344" key="GridCell.Tab.1.right" timestamp="1598523876536">
+    <state width="1878" height="344" key="GridCell.Tab.1.left/0.0.1920.1047@0.0.1920.1047" timestamp="1598613415165" />
+    <state width="1878" height="344" key="GridCell.Tab.1.right" timestamp="1598613415166">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state width="1878" height="344" key="GridCell.Tab.1.right/0.0.1920.1047@0.0.1920.1047" timestamp="1598523876536" />
+    <state width="1878" height="344" key="GridCell.Tab.1.right/0.0.1920.1047@0.0.1920.1047" timestamp="1598613415166" />
+    <state x="771" y="461" width="371" height="123" key="ReplaceDuplicatesPrompt" timestamp="1598615154724">
+      <screen x="0" y="0" width="1920" height="1047" />
+    </state>
+    <state x="771" y="461" width="371" height="123" key="ReplaceDuplicatesPrompt/0.0.1920.1047@0.0.1920.1047" timestamp="1598615154724" />
     <state x="449" y="159" key="SettingsEditor" timestamp="1598523896871">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
     <state x="449" y="159" key="SettingsEditor/0.0.1920.1047@0.0.1920.1047" timestamp="1598523896871" />
-    <state x="555" y="260" width="804" height="525" key="Vcs.Push.Dialog.v2" timestamp="1598612009596">
+    <state x="555" y="260" width="804" height="525" key="Vcs.Push.Dialog.v2" timestamp="1598613493798">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state x="555" y="260" width="804" height="525" key="Vcs.Push.Dialog.v2/0.0.1920.1047@0.0.1920.1047" timestamp="1598612009596" />
+    <state x="555" y="260" width="804" height="525" key="Vcs.Push.Dialog.v2/0.0.1920.1047@0.0.1920.1047" timestamp="1598613493798" />
+    <state x="693" y="287" width="552" height="493" key="extract.method.dialog" timestamp="1598615237799">
+      <screen x="0" y="0" width="1920" height="1047" />
+    </state>
+    <state x="693" y="287" width="552" height="493" key="extract.method.dialog/0.0.1920.1047@0.0.1920.1047" timestamp="1598615237799" />
     <state x="622" y="240" key="run.anything.popup" timestamp="1598604805487">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
