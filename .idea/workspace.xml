@@ -25,9 +25,21 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4175571-7d48-49f3-bd4a-5cb7ef1efff5" name="Default Changelist" comment="..">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/pardus.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/decorator/ImzaliRaporDecorator.java" afterDir="false" />
+    <list default="true" id="f4175571-7d48-49f3-bd4a-5cb7ef1efff5" name="Default Changelist" comment="Decorator Fixed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/facade/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/facade/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/facade/TahsilatFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/facade/borc/Borc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/facade/borc/EnumBorcTuru.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/facade/borc/OdemeBilgileriDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/facade/gecikme/GecikmeZammiHesaplamaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/facade/gecikme/GecikmeZammiOraniEntityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/facade/hukuksal/HukuksalKontrolService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/facade/hukuksal/HukuksalSurecEntityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/facade/tahsilat/TahsilatKontrolService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/facade/tahsilat/kredikarti/KrediKartiKontrolService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/facade/tahsilat/kredikarti/KrediKartiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/structural/facade/yapilandirma/YapilandirmaKontroService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +50,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -68,10 +81,24 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.java.designpatterns.structural.facade.gecikme" />
       <recent name="main.java.designpatterns.structural.decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RaporApp">
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.designpatterns.structural.facade.App" />
+      <module name="Kaliplar" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.designpatterns.structural.facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.designpatterns.structural.bridge.App" />
       <module name="Kaliplar" />
@@ -100,6 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.RaporApp" />
         <item itemvalue="Application.App" />
       </list>
@@ -135,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598525204078</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Decorator Fixed">
+      <created>1598602680067</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598602680067</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,25 +201,34 @@
     <MESSAGE value="." />
     <MESSAGE value="delete out" />
     <MESSAGE value=".." />
-    <option name="LAST_COMMIT_MESSAGE" value=".." />
+    <MESSAGE value="Decorator Fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decorator Fixed" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="344" key="GridCell.Tab.0.bottom" timestamp="1598523876534">
+    <state x="589" y="206" width="736" height="634" key="#Inspections" timestamp="1598610463461">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state width="1878" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1047@0.0.1920.1047" timestamp="1598523876534" />
-    <state width="1878" height="344" key="GridCell.Tab.0.center" timestamp="1598523876533">
+    <state x="589" y="206" width="736" height="634" key="#Inspections/0.0.1920.1047@0.0.1920.1047" timestamp="1598610463461" />
+    <state x="768" y="211" width="378" height="623" key="#com.intellij.ide.util.MemberChooser" timestamp="1598607663197">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state width="1878" height="344" key="GridCell.Tab.0.center/0.0.1920.1047@0.0.1920.1047" timestamp="1598523876533" />
-    <state width="1878" height="344" key="GridCell.Tab.0.left" timestamp="1598523876533">
+    <state x="768" y="211" width="378" height="623" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1047@0.0.1920.1047" timestamp="1598607663197" />
+    <state width="1878" height="279" key="GridCell.Tab.0.bottom" timestamp="1598610453994">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state width="1878" height="344" key="GridCell.Tab.0.left/0.0.1920.1047@0.0.1920.1047" timestamp="1598523876533" />
-    <state width="1878" height="344" key="GridCell.Tab.0.right" timestamp="1598523876534">
+    <state width="1878" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1047@0.0.1920.1047" timestamp="1598610453994" />
+    <state width="1878" height="279" key="GridCell.Tab.0.center" timestamp="1598610453993">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state width="1878" height="344" key="GridCell.Tab.0.right/0.0.1920.1047@0.0.1920.1047" timestamp="1598523876534" />
+    <state width="1878" height="279" key="GridCell.Tab.0.center/0.0.1920.1047@0.0.1920.1047" timestamp="1598610453993" />
+    <state width="1878" height="279" key="GridCell.Tab.0.left" timestamp="1598610453993">
+      <screen x="0" y="0" width="1920" height="1047" />
+    </state>
+    <state width="1878" height="279" key="GridCell.Tab.0.left/0.0.1920.1047@0.0.1920.1047" timestamp="1598610453993" />
+    <state width="1878" height="279" key="GridCell.Tab.0.right" timestamp="1598610453994">
+      <screen x="0" y="0" width="1920" height="1047" />
+    </state>
+    <state width="1878" height="279" key="GridCell.Tab.0.right/0.0.1920.1047@0.0.1920.1047" timestamp="1598610453994" />
     <state width="1878" height="344" key="GridCell.Tab.1.bottom" timestamp="1598523876537">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
@@ -205,9 +249,13 @@
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
     <state x="449" y="159" key="SettingsEditor/0.0.1920.1047@0.0.1920.1047" timestamp="1598523896871" />
-    <state x="555" y="260" width="804" height="525" key="Vcs.Push.Dialog.v2" timestamp="1598525240250">
+    <state x="555" y="260" width="804" height="525" key="Vcs.Push.Dialog.v2" timestamp="1598602683824">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
-    <state x="555" y="260" width="804" height="525" key="Vcs.Push.Dialog.v2/0.0.1920.1047@0.0.1920.1047" timestamp="1598525240250" />
+    <state x="555" y="260" width="804" height="525" key="Vcs.Push.Dialog.v2/0.0.1920.1047@0.0.1920.1047" timestamp="1598602683824" />
+    <state x="622" y="240" key="run.anything.popup" timestamp="1598604805487">
+      <screen x="0" y="0" width="1920" height="1047" />
+    </state>
+    <state x="622" y="240" key="run.anything.popup/0.0.1920.1047@0.0.1920.1047" timestamp="1598604805487" />
   </component>
 </project>
