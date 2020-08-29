@@ -25,17 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4175571-7d48-49f3-bd4a-5cb7ef1efff5" name="Default Changelist" comment="proxy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/behavioural/chain/AnkaraSube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/behavioural/chain/AntalyaSube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/behavioural/chain/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/behavioural/chain/CankiriSube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/behavioural/chain/EnumIl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/behavioural/chain/IstanbulSube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/behavioural/chain/KargoSirketi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/designpatterns/behavioural/chain/OckKargo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f4175571-7d48-49f3-bd4a-5cb7ef1efff5" name="Default Changelist" comment="proxy" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +61,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -262,6 +255,10 @@
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
     <state x="589" y="206" width="736" height="634" key="#Inspections/0.0.1920.1047@0.0.1920.1047" timestamp="1598610463461" />
+    <state x="479" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1598683813595">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="479" y="131" width="1024" height="852" key="#Project_Structure/72.27.1848.1053@72.27.1848.1053" timestamp="1598683813595" />
     <state x="768" y="211" width="550" height="623" key="#com.intellij.ide.util.MemberChooser" timestamp="1598613979209">
       <screen x="0" y="0" width="1920" height="1047" />
     </state>
