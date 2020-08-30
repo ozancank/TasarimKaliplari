@@ -19,10 +19,10 @@ public class App {
     }
 
     private static String getKusSozu() {
-        return "Sacadıcık Bacahacadıcır Mecemiciş cacacıcık yecer";
+        return "Ozcoan Cacan Köcösecemecez";
     }
 
     private static String getKargaSozu() {
-        return "Sagadıgık Bagahagadıgır Megemigiş cagacıgık yeger";
+        return "Ozgoan Cagan Kögösegemegez";
     }
 }
